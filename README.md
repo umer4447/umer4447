@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - 🌱 My passion for innovation and learning drives me to constantly stay up-to-date with the latest advancements in technology. My expertise spans across    multiple programming languages, and I have honed my skills in various Javascript and Python frameworks. 
 - 👯 I am eagerly seeking collaboration opportunities to leverage my skills and contribute to cutting-edge projects in both web and mobile domains.
 - 🌱 Drawing on my diverse experience in working with numerous startups, I possess comprehensive knowledge of the entire product development lifecycle, from inception to delivery.
-- 📫 If you seek to engage in a dialogue regarding my skills, please feel free to contact me via umer44447@gmail.com or my LinkedIn profile at https://www.linkedin.com/in/umer4447/.
+- 📫 If you seek to engage in a dialogue regarding my skills, please feel free to contact me via itsumer98@gmail.com or my LinkedIn profile at https://www.linkedin.com/in/umer4447/.
 
 
 <!---
