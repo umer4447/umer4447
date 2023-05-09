@@ -31,11 +31,11 @@ Here are some ideas to get you started:
 [![Umer's GitHub stats](https://github-readme-stats.vercel.app/api?username=umer4447&hide=issues,contribs&count_private=true&show_icons=true&theme=gruvbox&show_owner=true)](https://github.com/umer4447)
 --->
 
-<!---
-[![Umer's GitHub stats](https://github-readme-stats.vercel.app/api?username=umer4447&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham&show_owner=true)](https://github.com/umer4447)
---->
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=umer4447&show_icons=true&theme=gotham" alt="umer4447" />
+[![Umer's GitHub stats](https://github-readme-stats.vercel.app/api?username=umer4447&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham&show_owner=true)](https://github.com/umer4447)
+
+
+<!-- <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=umer4447&show_icons=true&theme=gotham" alt="umer4447" /> -->
 
 I have had the privilege of collaborating with diverse clients on multiple projects, each with unique and challenging requirements. While not all of these projects are publicly available on my GitHub account, due to some restrictions under non-disclosure agreements, I have been actively involved in developing and managing these projects with a keen eye for detail and a commitment to achieving exceptional results. Additionally, I have recently been utilizing Bitbucket as a platform for some of my latest projects. My dedication to delivering quality work and a passion for problem-solving have been key to my success in delivering successful outcomes for each of these endeavors.
 
