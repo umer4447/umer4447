@@ -44,8 +44,8 @@ Here are some ideas to get you started:
 
 I have had the privilege of collaborating with diverse clients on multiple projects, each with unique and challenging requirements. While not all of these projects are publicly available on my GitHub account, due to some restrictions under non-disclosure agreements, I have been actively involved in developing and managing these projects with a keen eye for detail and a commitment to achieving exceptional results. Additionally, I have recently been utilizing Bitbucket as a platform for some of my latest projects. My dedication to delivering quality work and a passion for problem-solving have been key to my success in delivering successful outcomes for each of these endeavors.
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=umer4447&theme=dark&background=000000)](https://git.io/streak-stats)
-
+<!-- [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=umer4447&theme=dark&background=000000)](https://git.io/streak-stats)
+ -->
 
 
 
