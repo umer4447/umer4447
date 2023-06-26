@@ -37,7 +37,8 @@ Here are some ideas to get you started:
  
 ### Github Statistics: 
  
-![Umer's GitHub stats](https://github-readme-stats.vercel.app/api?username=umer4447&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham&show_owner=true)
+<!-- ![Umer's GitHub stats](https://github-readme-stats.vercel.app/api?username=umer4447&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham&show_owner=true)
+-->
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umer4447&layout=compact&theme=vision-friendly-dark)
 
