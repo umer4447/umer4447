@@ -8,7 +8,7 @@ Here are some ideas to get you started:
 -->
 
 
-- 👋 Greetings, I am @umer4447
+- 👋 Greetings, I am Muhammad Umer.
 - 🔭 I’m Full Stack Engineer with extensive experience in both Web and Mobile App Development.
 - 🌱 My passion for innovation and learning drives me to constantly stay up-to-date with the latest advancements in technology. My expertise spans across    multiple programming languages, and I have honed my skills in various Javascript and Python frameworks. 
 - 👯 I am eagerly seeking collaboration opportunities to leverage my skills and contribute to cutting-edge projects in both web and mobile domains.
