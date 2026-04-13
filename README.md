@@ -34,7 +34,6 @@ Here are some ideas to get you started:
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
  
  
-### Github Statistics: 
  
 <!-- ![Umer's GitHub stats](https://github-readme-stats.vercel.app/api?username=umer4447&hide=issues,contribs&count_private=true&show_icons=true&theme=gotham&show_owner=true)
 -->
