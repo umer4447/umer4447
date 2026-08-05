@@ -1,39 +1,26 @@
-<svg viewBox="0 0 1000 470" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<svg viewBox="0 0 1000 330" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0b0e14"/>
       <stop offset="100%" stop-color="#11141d"/>
     </linearGradient>
-    <linearGradient id="claudeGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#d97757"/>
-      <stop offset="100%" stop-color="#b85c3e"/>
-    </linearGradient>
     <linearGradient id="linearGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#5e6ad2"/>
       <stop offset="100%" stop-color="#454f9e"/>
     </linearGradient>
-    <linearGradient id="flowGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#d97757" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#d97757"/>
-      <stop offset="100%" stop-color="#d97757" stop-opacity="0"/>
-    </linearGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .card { rx: 14; stroke-width: 1.2; }
-      .label { fill: #e8eaf0; font-size: 17px; font-weight: 600; }
-      .sub { fill: #8b93a5; font-size: 11.5px; letter-spacing: .4px; }
-      .num { fill: #4a5164; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; }
+      .label { fill: #e8eaf0; font-size: 15px; font-weight: 600; }
+      .sub { fill: #8b93a5; font-size: 10.5px; letter-spacing: .3px; }
+      .num { fill: #4a5164; font-size: 10px; font-weight: 700; letter-spacing: 1.3px; }
       .track { fill: none; stroke: #262c3a; stroke-width: 2; }
       .flow { fill: none; stroke: #d97757; stroke-width: 2; stroke-dasharray: 10 14; opacity: .85;
               animation: dash 1.6s linear infinite; }
       @keyframes dash { to { stroke-dashoffset: -24; } }
-      .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
       @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
       .fadein { animation: fadein .9s ease-out both; }
       @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
@@ -43,121 +30,101 @@
     </style>
   </defs>
 
-  <rect x="0" y="0" width="1000" height="470" rx="18" fill="url(#bgGrad)" stroke="#1e2430" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1000" height="330" rx="16" fill="url(#bgGrad)" stroke="#1e2430" stroke-width="1.5"/>
 
   <!-- header -->
-  <text x="50" y="58" fill="#e8eaf0" font-size="24" font-weight="700">AI-Native Development Pipeline</text>
-  <text x="50" y="84" fill="#8b93a5" font-size="14">idea &#8594; spec &#8594; ticket &#8594; design &#8594; code &#8594; review &#8594; production &#8212; one continuous loop</text>
-  <circle cx="925" cy="55" r="5" fill="#d97757" class="pulse"/>
-  <text x="915" y="60" text-anchor="end" fill="#8b93a5" font-size="12" letter-spacing="1">LIVE</text>
+  <text x="40" y="44" fill="#e8eaf0" font-size="20" font-weight="700">AI-Native Development Pipeline</text>
+  <text x="40" y="64" fill="#8b93a5" font-size="12">idea &#8594; spec &#8594; ticket &#8594; design &#8594; code &#8594; review &#8594; production &#8212; one continuous loop</text>
+  <circle cx="930" cy="40" r="4.5" fill="#d97757" class="pulse"/>
+  <text x="920" y="44" text-anchor="end" fill="#8b93a5" font-size="11" letter-spacing="1">LIVE</text>
 
-  <!-- ===== connector tracks (behind cards) ===== -->
-  <!-- row 1: left to right -->
-  <path class="track" d="M 210 165 H 265"/>
-  <path class="flow"  d="M 210 165 H 265"/>
-  <path class="track" d="M 435 165 H 490"/>
-  <path class="flow"  d="M 435 165 H 490"/>
-  <path class="track" d="M 660 165 H 715"/>
-  <path class="flow"  d="M 660 165 H 715"/>
-  <!-- wrap from row 1 end down to row 2 start (right side) -->
-  <path class="track" d="M 885 197 C 885 250 885 260 830 260 L 715 260 C 680 260 680 300 680 305"/>
-  <path class="flow"  d="M 885 197 C 885 250 885 260 830 260 L 715 260 C 680 260 680 300 680 305"/>
-  <!-- row 2: right to left -->
-  <path class="track" d="M 570 337 H 515"/>
-  <path class="flow"  d="M 570 337 H 515"/>
-  <path class="track" d="M 340 337 H 285"/>
-  <path class="flow"  d="M 340 337 H 285"/>
-  <!-- feedback loop from Vercel back up to Claude -->
-  <path class="track" d="M 120 305 C 120 250 120 230 120 197" stroke-dasharray="3 6"/>
+  <!-- connector tracks -->
+  <path class="track" d="M 210 125 H 265"/>
+  <path class="flow"  d="M 210 125 H 265"/>
+  <path class="track" d="M 435 125 H 490"/>
+  <path class="flow"  d="M 435 125 H 490"/>
+  <path class="track" d="M 660 125 H 715"/>
+  <path class="flow"  d="M 660 125 H 715"/>
+  <path class="track" d="M 885 153 C 885 195 885 200 830 200 L 715 200 C 682 200 682 225 682 230"/>
+  <path class="flow"  d="M 885 153 C 885 195 885 200 830 200 L 715 200 C 682 200 682 225 682 230"/>
+  <path class="track" d="M 570 258 H 515"/>
+  <path class="flow"  d="M 570 258 H 515"/>
+  <path class="track" d="M 340 258 H 285"/>
+  <path class="flow"  d="M 340 258 H 285"/>
+  <path class="track" d="M 120 230 C 120 195 120 180 120 153" stroke-dasharray="3 6"/>
 
-  <!-- moving pulse dot along whole pipeline -->
+  <!-- moving pulse dot -->
   <circle r="4.5" fill="#ffb597" filter="url(#glow)" class="mover">
     <animateMotion dur="7s" repeatCount="indefinite"
-      path="M 100 165 H 490 H 715 H 885 C 885 250 885 260 830 260 L 715 260 C 680 260 680 300 680 305 L 680 337 H 285 H 120 C 120 250 120 230 120 165"/>
+      path="M 100 125 H 490 H 715 H 885 C 885 195 885 200 830 200 L 715 200 C 682 200 682 225 682 230 L 682 258 H 285 H 120 C 120 195 120 180 120 125"/>
   </circle>
 
-  <!-- ===== ROW 1 ===== -->
-  <!-- 01 Claude -->
+  <!-- ROW 1 -->
   <g class="fadein d1">
-    <rect class="card" x="30" y="133" width="180" height="64" fill="#161a24" stroke="#d97757"/>
-    <text class="num" x="46" y="127">01 &#183; IDEATE</text>
-    <g filter="url(#glow)"><text x="52" y="174" fill="#d97757" font-size="24" font-weight="700">&#10022;</text></g>
-    <text class="label" x="80" y="163">Claude</text>
-    <text class="sub" x="80" y="181">architecture &amp; planning</text>
+    <rect x="30" y="97" width="180" height="56" rx="12" fill="#161a24" stroke="#d97757" stroke-width="1.2"/>
+    <text class="num" x="44" y="91">01 &#183; IDEATE</text>
+    <g filter="url(#glow)"><text x="46" y="132" fill="#d97757" font-size="20" font-weight="700">&#10022;</text></g>
+    <text class="label" x="72" y="122">Claude</text>
+    <text class="sub" x="72" y="138">architecture &amp; planning</text>
   </g>
-
-  <!-- 02 Notion -->
   <g class="fadein d2">
-    <rect class="card" x="255" y="133" width="180" height="64" fill="#161a24" stroke="#39404f"/>
-    <text class="num" x="271" y="127">02 &#183; SPEC</text>
-    <text x="272" y="172" fill="#e8eaf0" font-size="22" font-weight="800">N</text>
-    <text class="label" x="302" y="163">Notion</text>
-    <text class="sub" x="302" y="181">PRDs &amp; documentation</text>
+    <rect x="255" y="97" width="180" height="56" rx="12" fill="#161a24" stroke="#39404f" stroke-width="1.2"/>
+    <text class="num" x="269" y="91">02 &#183; SPEC</text>
+    <text x="270" y="130" fill="#e8eaf0" font-size="19" font-weight="800">N</text>
+    <text class="label" x="296" y="122">Notion</text>
+    <text class="sub" x="296" y="138">PRDs &amp; documentation</text>
   </g>
-
-  <!-- 03 Linear -->
   <g class="fadein d3">
-    <rect class="card" x="480" y="133" width="180" height="64" fill="#161a24" stroke="#5e6ad2"/>
-    <text class="num" x="496" y="127">03 &#183; TRACK</text>
+    <rect x="480" y="97" width="180" height="56" rx="12" fill="#161a24" stroke="#5e6ad2" stroke-width="1.2"/>
+    <text class="num" x="494" y="91">03 &#183; TRACK</text>
     <g fill="url(#linearGrad)">
-      <rect x="497" y="152" width="7" height="7" rx="2"/><rect x="507" y="152" width="7" height="7" rx="2"/>
-      <rect x="497" y="162" width="7" height="7" rx="2"/><rect x="507" y="162" width="7" height="7" rx="2" opacity=".5"/>
+      <rect x="495" y="113" width="6" height="6" rx="2"/><rect x="504" y="113" width="6" height="6" rx="2"/>
+      <rect x="495" y="122" width="6" height="6" rx="2"/><rect x="504" y="122" width="6" height="6" rx="2" opacity=".5"/>
     </g>
-    <text class="label" x="524" y="163">Linear</text>
-    <text class="sub" x="524" y="181">sprints &amp; issues</text>
+    <text class="label" x="520" y="122">Linear</text>
+    <text class="sub" x="520" y="138">sprints &amp; issues</text>
   </g>
-
-  <!-- 04 Claude Design -->
   <g class="fadein d4">
-    <rect class="card" x="705" y="133" width="180" height="64" fill="#161a24" stroke="#d97757"/>
-    <text class="num" x="721" y="127">04 &#183; DESIGN</text>
+    <rect x="705" y="97" width="180" height="56" rx="12" fill="#161a24" stroke="#d97757" stroke-width="1.2"/>
+    <text class="num" x="719" y="91">04 &#183; DESIGN</text>
     <g filter="url(#glow)">
-      <circle cx="732" cy="163" r="9" fill="none" stroke="#d97757" stroke-width="2"/>
-      <circle cx="732" cy="163" r="3" fill="#d97757"/>
+      <circle cx="729" cy="123" r="8" fill="none" stroke="#d97757" stroke-width="2"/>
+      <circle cx="729" cy="123" r="2.5" fill="#d97757"/>
     </g>
-    <text class="label" x="752" y="163">Claude Design</text>
-    <text class="sub" x="752" y="181">UI &amp; prototypes</text>
+    <text class="label" x="747" y="122">Claude Design</text>
+    <text class="sub" x="747" y="138">UI &amp; prototypes</text>
   </g>
 
-  <!-- ===== ROW 2 (flows right to left) ===== -->
-  <!-- 05 Claude Code -->
+  <!-- ROW 2 -->
   <g class="fadein d5">
-    <rect class="card" x="590" y="305" width="180" height="64" fill="#161a24" stroke="#d97757"/>
-    <text class="num" x="606" y="299">05 &#183; BUILD</text>
+    <rect x="590" y="230" width="180" height="56" rx="12" fill="#161a24" stroke="#d97757" stroke-width="1.2"/>
+    <text class="num" x="604" y="224">05 &#183; BUILD</text>
     <g filter="url(#glow)">
-      <text x="606" y="347" fill="#d97757" font-size="18" font-weight="800" font-family="monospace">&#62;_</text>
+      <text x="604" y="266" fill="#d97757" font-size="15" font-weight="800" font-family="monospace">&#62;_</text>
     </g>
-    <text class="label" x="640" y="337">Claude Code</text>
-    <text class="sub" x="640" y="355">agentic implementation</text>
+    <text class="label" x="634" y="255">Claude Code</text>
+    <text class="sub" x="634" y="271">agentic implementation</text>
   </g>
-
-  <!-- 06 GitHub PRs -->
   <g class="fadein d6">
-    <rect class="card" x="335" y="305" width="180" height="64" fill="#161a24" stroke="#39404f"/>
-    <text class="num" x="351" y="299">06 &#183; REVIEW</text>
+    <rect x="335" y="230" width="180" height="56" rx="12" fill="#161a24" stroke="#39404f" stroke-width="1.2"/>
+    <text class="num" x="349" y="224">06 &#183; REVIEW</text>
     <g stroke="#8b93a5" stroke-width="2" fill="none">
-      <circle cx="356" cy="324" r="4.5"/>
-      <circle cx="356" cy="352" r="4.5"/>
-      <circle cx="376" cy="352" r="4.5"/>
-      <path d="M 356 329 V 347 M 376 347 V 340 C 376 330 366 331 362 328"/>
+      <circle cx="354" cy="246" r="4"/>
+      <circle cx="354" cy="270" r="4"/>
+      <circle cx="372" cy="270" r="4"/>
+      <path d="M 354 250 V 266 M 372 266 V 260 C 372 251 363 252 359 249"/>
     </g>
-    <text class="label" x="392" y="337">GitHub PRs</text>
-    <text class="sub" x="392" y="355">clean, reviewed merges</text>
+    <text class="label" x="388" y="255">GitHub PRs</text>
+    <text class="sub" x="388" y="271">clean, reviewed merges</text>
   </g>
-
-  <!-- 07 Vercel -->
   <g class="fadein d7">
-    <rect class="card" x="30" y="305" width="255" height="64" fill="#161a24" stroke="#e8eaf0"/>
-    <text class="num" x="46" y="299">07 &#183; SHIP</text>
-    <g filter="url(#glow)"><path d="M 58 328 L 74 354 H 42 Z" fill="#e8eaf0"/></g>
-    <text class="label" x="90" y="337">Vercel Deployment</text>
-    <text class="sub" x="90" y="355">production, continuously</text>
+    <rect x="30" y="230" width="255" height="56" rx="12" fill="#161a24" stroke="#e8eaf0" stroke-width="1.2"/>
+    <text class="num" x="44" y="224">07 &#183; SHIP</text>
+    <g filter="url(#glow)"><path d="M 54 248 L 68 270 H 40 Z" fill="#e8eaf0"/></g>
+    <text class="label" x="82" y="255">Vercel Deployment</text>
+    <text class="sub" x="82" y="271">production, continuously</text>
   </g>
 
   <!-- feedback label -->
-  <text x="132" y="255" fill="#4a5164" font-size="11" letter-spacing="1">ITERATE</text>
-  <text x="132" y="269" fill="#4a5164" font-size="11" letter-spacing="1">&#8593; FEEDBACK</text>
-
-  <!-- footer -->
-  <text x="50" y="435" fill="#5b6376" font-size="12.5">Every stage is AI-accelerated &#8212; specs stay in sync, tickets stay honest, and code ships the day it&#8217;s designed.</text>
+  <text x="132" y="186" fill="#4a5164" font-size="10" letter-spacing="1">ITERATE &#8593;</text>
 </svg>
