@@ -7,30 +7,18 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=650&lines=I+ship+products%2C+not+just+code.;Idea+%E2%86%92+Design+%E2%86%92+Build+%E2%86%92+Scale+%E2%86%92+Repeat.;Founding+Engineer+%7C+End-to-End+Ownership;Web+%2B+Mobile+%7C+0+%E2%86%92+1+Specialist" alt="Typing SVG" />
 </a>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=umer4447&style=for-the-badge&color=d97757&label=PROFILE+VIEWS" alt="views"/>&nbsp;
-<img src="https://img.shields.io/badge/Focus-Founding%20Engineering-d97757?style=for-the-badge" alt="focus"/>&nbsp;
-<img src="https://img.shields.io/badge/Status-Building%20%26%20Shipping-5e6ad2?style=for-the-badge" alt="status"/>
-
 </div>
 
 <br/>
 
 <!-- ═══════════════════════════ WHO I AM ═══════════════════════════ -->
-<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="330" alt="coding gif"/>
+<div align="center">
 
-### ⚡ Who I Am
+## ⚡ Who I Am
 
-**Founding Engineer** who owns products **end-to-end** — from a blank whiteboard to a scaled production system serving real users.
+<img src="./assets/who-i-am.svg" width="100%" alt="Muhammad Umer — Founding Engineer and Full Stack developer. 0→1 specialist taking startups from inception to launch. Full SDLC: discovery, build, CI/CD, scale. AI-native: engineering with agents, compressing weeks into days. Web + Mobile: one engineer, the entire product. End-to-end ownership: blank whiteboard to scaled production system. Trusted under NDA by startups."/>
 
-- 🚀 **0 → 1 specialist** — I've taken multiple startup products from inception to launch
-- 🔄 **Full software development lifecycle** — discovery, specs, architecture, build, CI/CD, scale
-- 🧠 **AI-native workflow** — I engineer *with* AI agents, compressing weeks into days
-- 📱 **Web + Mobile** — one engineer, the entire surface area
-- 🤝 Trusted under NDA by startups across multiple domains
-
-<br clear="right"/>
+</div>
 
 <!-- ═══════════════════════════ AI WORKFLOW ═══════════════════════════ -->
 <div align="center">
@@ -52,43 +40,39 @@
 
 ## 🛠️ Arsenal
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,redux,nodejs,express,python,firebase,mongodb,mysql,aws,vercel,tailwind,materialui,html,css,git,github,figma&perline=10" alt="tech stack"/>
-
-<br/><br/>
-
-| 🎯 Frontend | ⚙️ Backend | ☁️ Cloud & Infra | 🤖 AI Tooling |
-|:---:|:---:|:---:|:---:|
-| React · Next.js · Redux | Node.js · Express · Python | AWS · Firebase · Vercel | Claude · Claude Code |
-| React Native · Gatsby | REST · MongoDB · MySQL | CI/CD · GitHub Actions | Linear · Notion MCP |
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
-<div align="center">
-
-## 📊 The Numbers
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=umer4447&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=d97757&icon_color=d97757&count_private=true" alt="stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umer4447&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=d97757&langs_count=8" alt="languages"/>
-
-<img src="https://streak-stats.demolab.com?user=umer4447&theme=dark&hide_border=true&background=0d1117&ring=d97757&fire=d97757&currStreakLabel=d97757" alt="streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=umer4447&theme=github-compact&hide_border=true&bg_color=0d1117&color=8b93a5&line=d97757&point=5e6ad2&area=true&area_color=d97757" width="100%" alt="activity graph"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=umer4447&theme=darkhub&no-frame=true&column=7&margin-w=8" alt="trophies"/>
+<table>
+<tr>
+<td align="center" width="45%">
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,redux,nodejs,express,python,firebase,mongodb,mysql,aws,vercel,tailwind,materialui,html,css,git,github,figma&perline=5" alt="tech stack"/>
+</td>
+<td width="55%">
+<table width="100%">
+<tr><th align="left">🎯 Frontend</th><td>React · Next.js · Redux · React Native · Gatsby</td></tr>
+<tr><th align="left">⚙️ Backend</th><td>Node.js · Express · Python · REST · MongoDB · MySQL</td></tr>
+<tr><th align="left">☁️ Cloud &amp; Infra</th><td>AWS · Firebase · Vercel · CI/CD · GitHub Actions</td></tr>
+<tr><th align="left">🤖 AI Tooling</th><td>Claude · Claude Code · Linear · Notion MCP</td></tr>
+</table>
+</td>
+</tr>
+</table>
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
+<!-- ═══════════════════════════ SNAKE ═══════════════════════════
+  ⚠️ UNCOMMENT THIS BLOCK ONLY AFTER the snake GitHub Action has run
+  successfully at least once (Actions tab → "Generate Snake Animation"
+  → Run workflow → wait for the green check → confirm the `output`
+  branch exists). Until then it renders as a broken image.
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/umer4447/umer4447/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
 
 </div>
+
+═══════════════════════════════════════════════════════════════ -->
 
 <!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
 <div align="center">
@@ -97,9 +81,9 @@
 
 **Open to founding-engineer roles, technical partnerships, and ambitious products.**
 
-<a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-d97757?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
-<a href="https://www.linkedin.com/in/your-handle"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-5e6ad2?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+<a href="mailto:umerstack@gmail.com"><img src="https://img.shields.io/badge/Email-d97757?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="https://www.linkedin.com/in/umer4447"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
+<a href="https://www.umerchoudhary.com/"><img src="https://img.shields.io/badge/Portfolio-5e6ad2?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 
 <br/>
 
