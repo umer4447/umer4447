@@ -1,15 +1,13 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d97757,50:b85c3e,100:5e6ad2&height=210&section=header&text=Muhammad%20Umer&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founding%20Engineer%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20AI-Native%20Builder&descSize=20&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d97757,50:b85c3e,100:5e6ad2&height=140&section=header&text=Muhammad%20Umer&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Founding%20Engineer%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20AI-Native%20Builder&descSize=15&descAlignY=55" width="100%"/>
 
 <a href="https://github.com/umer4447">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=650&lines=I+ship+products%2C+not+just+code.;Idea+%E2%86%92+Design+%E2%86%92+Build+%E2%86%92+Scale+%E2%86%92+Repeat.;Founding+Engineer+%7C+End-to-End+Ownership;Web+%2B+Mobile+%7C+0+%E2%86%92+1+Specialist" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=600&lines=I+ship+products%2C+not+just+code.;Idea+%E2%86%92+Design+%E2%86%92+Build+%E2%86%92+Scale+%E2%86%92+Repeat.;Founding+Engineer+%7C+End-to-End+Ownership;Web+%2B+Mobile+%7C+0+%E2%86%92+1+Specialist" alt="Typing SVG" />
 </a>
 
 </div>
-
-<br/>
 
 <!-- ═══════════════════════════ WHO I AM ═══════════════════════════ -->
 <div align="center">
@@ -33,8 +31,6 @@
 
 </div>
 
-<br/>
-
 <!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
 <div align="center">
 
@@ -57,8 +53,6 @@
 </table>
 
 </div>
-
-<br/>
 
 <!-- ═══════════════════════════ SNAKE ═══════════════════════════
   ⚠️ UNCOMMENT THIS BLOCK ONLY AFTER the snake GitHub Action has run
@@ -87,6 +81,6 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5e6ad2,50:b85c3e,100:d97757&height=130&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5e6ad2,50:b85c3e,100:d97757&height=80&section=footer" width="100%"/>
 
 </div>
