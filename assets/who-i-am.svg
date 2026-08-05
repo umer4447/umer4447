@@ -1,0 +1,123 @@
+<svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="100%" stop-color="#11141d"/>
+    </linearGradient>
+    <filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="type1"><rect x="72" y="96" width="0" height="22">
+      <animate attributeName="width" from="0" to="90" dur="0.7s" begin="0.4s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="type2"><rect x="72" y="188" width="0" height="22">
+      <animate attributeName="width" from="0" to="200" dur="1.1s" begin="2.1s" fill="freeze"/>
+    </rect></clipPath>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 15px; }
+      .prompt { fill: #5ec269; }
+      .cmd { fill: #e8eaf0; }
+      .out { fill: #8b93a5; }
+      .accent { fill: #d97757; }
+      .tileTitle { fill: #e8eaf0; font-size: 16px; font-weight: 700; }
+      .tileSub { fill: #8b93a5; font-size: 11.5px; }
+      .tileNum { fill: #d97757; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; opacity: .9; }
+      .reveal { opacity: 0; animation: reveal .5s ease-out forwards; }
+      @keyframes reveal { to { opacity: 1; } }
+      .r1 { animation-delay: 1.3s } .r2 { animation-delay: 1.6s }
+      .r3 { animation-delay: 3.4s } .r4 { animation-delay: 3.7s }
+      .r5 { animation-delay: 4.0s } .r6 { animation-delay: 4.3s }
+      .t1 { animation-delay: .3s } .t2 { animation-delay: .5s } .t3 { animation-delay: .7s }
+      .t4 { animation-delay: .9s } .t5 { animation-delay: 1.1s }
+      .tile { opacity: 0; animation: rise .6s cubic-bezier(.2,.7,.3,1) forwards; }
+      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+      .scan { animation: scan 3.2s ease-in-out infinite alternate; }
+      @keyframes scan { from { transform: translateX(0); } to { transform: translateX(340px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .reveal, .tile { animation: none; opacity: 1; }
+        .cursor, .scan { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="400" rx="18" fill="url(#bg2)" stroke="#1e2430" stroke-width="1.5"/>
+
+  <!-- ══════════ LEFT: terminal ══════════ -->
+  <rect x="40" y="46" width="420" height="308" rx="12" fill="#0e1119" stroke="#232a38" stroke-width="1.2"/>
+  <!-- title bar -->
+  <rect x="40" y="46" width="420" height="34" rx="12" fill="#151a26"/>
+  <rect x="40" y="68" width="420" height="12" fill="#151a26"/>
+  <circle cx="62" cy="63" r="5" fill="#f26d6d"/>
+  <circle cx="80" cy="63" r="5" fill="#f2c66d"/>
+  <circle cx="98" cy="63" r="5" fill="#5ec269"/>
+  <text x="250" y="67" text-anchor="middle" fill="#5b6376" font-size="11.5" class="mono">umer@production ~ </text>
+  <!-- animated accent line under title bar -->
+  <g style="transform: translateX(60px)"><rect x="40" y="79" width="80" height="1.5" fill="#d97757" opacity=".6" class="scan"/></g>
+
+  <!-- $ whoami -->
+  <text x="60" y="112" class="mono prompt">$</text>
+  <text x="76" y="112" class="mono cmd" clip-path="url(#type1)">whoami</text>
+  <text x="60" y="140" class="mono out reveal r1">Muhammad Umer</text>
+  <text x="60" y="162" class="mono accent reveal r2" font-weight="700">→ Founding Engineer · Full Stack</text>
+
+  <!-- capabilities command -->
+  <text x="60" y="204" class="mono prompt">$</text>
+  <text x="76" y="204" class="mono cmd" clip-path="url(#type2)">umer --capabilities</text>
+  <text x="60" y="232" class="mono out reveal r3"><tspan class="accent">✓</tspan> end-to-end product ownership</text>
+  <text x="60" y="254" class="mono out reveal r4"><tspan class="accent">✓</tspan> whiteboard → production → scale</text>
+  <text x="60" y="276" class="mono out reveal r5"><tspan class="accent">✓</tspan> trusted under NDA by startups</text>
+
+  <!-- prompt + blinking cursor -->
+  <text x="60" y="318" class="mono prompt reveal r6">$</text>
+  <rect x="78" y="305" width="9" height="17" fill="#d97757" class="cursor" filter="url(#glow2)"/>
+
+  <!-- ══════════ RIGHT: capability tiles ══════════ -->
+  <!-- 01 zero to one -->
+  <g class="tile t1">
+    <rect x="500" y="46" width="222" height="88" rx="12" fill="#161a24" stroke="#2a3040" stroke-width="1.2"/>
+    <text x="520" y="72" class="tileNum">01 / ZERO → ONE</text>
+    <text x="520" y="96" class="tileTitle">0 → 1 Specialist</text>
+    <text x="520" y="116" class="tileSub">startups: inception → launch</text>
+  </g>
+
+  <!-- 02 SDLC -->
+  <g class="tile t2">
+    <rect x="738" y="46" width="222" height="88" rx="12" fill="#161a24" stroke="#2a3040" stroke-width="1.2"/>
+    <text x="758" y="72" class="tileNum">02 / LIFECYCLE</text>
+    <text x="758" y="96" class="tileTitle">Full SDLC</text>
+    <text x="758" y="116" class="tileSub">discovery · build · CI/CD · scale</text>
+  </g>
+
+  <!-- 03 AI-native -->
+  <g class="tile t3">
+    <rect x="500" y="150" width="222" height="88" rx="12" fill="#161a24" stroke="#d97757" stroke-width="1.2"/>
+    <text x="520" y="176" class="tileNum">03 / AI-NATIVE</text>
+    <text x="520" y="200" class="tileTitle">Engineer × Agents</text>
+    <text x="520" y="220" class="tileSub">compressing weeks into days</text>
+  </g>
+
+  <!-- 04 surface area -->
+  <g class="tile t4">
+    <rect x="738" y="150" width="222" height="88" rx="12" fill="#161a24" stroke="#2a3040" stroke-width="1.2"/>
+    <text x="758" y="176" class="tileNum">04 / SURFACE AREA</text>
+    <text x="758" y="200" class="tileTitle">Web + Mobile</text>
+    <text x="758" y="220" class="tileSub">one engineer, the entire product</text>
+  </g>
+
+  <!-- 05 wide ownership bar -->
+  <g class="tile t5">
+    <rect x="500" y="254" width="460" height="100" rx="12" fill="#161a24" stroke="#2a3040" stroke-width="1.2"/>
+    <text x="520" y="282" class="tileNum">05 / OWNERSHIP</text>
+    <text x="520" y="308" class="tileTitle">Blank whiteboard → scaled production system</text>
+    <!-- mini progress track -->
+    <rect x="520" y="326" width="420" height="6" rx="3" fill="#232a38"/>
+    <rect x="520" y="326" width="0" height="6" rx="3" fill="#d97757" filter="url(#glow2)">
+      <animate attributeName="width" from="0" to="420" dur="2.2s" begin="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/>
+    </rect>
+    <text x="520" y="348" class="tileSub" font-size="10.5">IDEA</text>
+    <text x="940" y="348" text-anchor="end" class="tileSub" font-size="10.5">SCALE</text>
+  </g>
+</svg>
